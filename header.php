@@ -41,7 +41,7 @@ session_start();
             <li><a href="index.php"> Home</a></li>
             <li><a href="aboutme.php">About Me</a></li>
             <?php
-                if(isset($_SESSION["userid"])){
+                if(isset($_SESSION["usersID"])){
                     echo "<li><a href='profil.php'>Profil </a></li>";
                     echo "<li><a href='php/logout.inc.php'>Log Out</a></li>";
                 }

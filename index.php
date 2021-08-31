@@ -12,7 +12,7 @@ include_once 'header.php';
             <br>
 
             <?php
-                if(isset($_SESSION["userid"])){
+                if(isset($_SESSION["usersID"])){
                     echo "<h2> Welcome!</h2>";
                 }
                 else{

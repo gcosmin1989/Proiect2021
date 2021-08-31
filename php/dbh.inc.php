@@ -1,9 +1,9 @@
 <?php
 
-$serverName = " ";
-$dbUsername = " ";
-$dbPassword = " ";
-$dbName = "";
+$serverName = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "proiectlogin";
 
 //Conectare la baza de date
 $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
